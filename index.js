@@ -34,3 +34,9 @@ function prependKitten(name)
 }
 
 
+function removeLastKitten()
+{
+  newKittens = [...kittens].pop();
+  return newKittens;
+}
+
